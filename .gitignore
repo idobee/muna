@@ -1,0 +1,38 @@
+# ============================================================
+# 🔒 보안 - 절대 GitHub에 올리면 안 되는 파일들
+# ============================================================
+
+# 환경변수 (API 키 포함)
+.env
+.env.local
+.env.production
+
+# OAuth 토큰 파일
+token.json
+client_secret*.json
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+
+# 로그 파일
+*.log
+logs/
+
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# 임시 파일
+tmp/
+temp/
+*.tmp
